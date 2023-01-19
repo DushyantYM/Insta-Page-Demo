@@ -1,0 +1,16 @@
+.single-photo-div{
+    width : 30%
+}
+.photo{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width : 768px){
+    .photo{
+        width: 100%;
+        height: auto;
+    }
+    
+}
