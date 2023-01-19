@@ -41,7 +41,7 @@ const PhotosGrid = () => {
       <div className="grid-container">
         {postsData &&
           postsData.map((post) => {
-            return <SinglePhoto imgSrc={post.thumbnailUrl} />;
+            return <SinglePhoto imgSrc={post.thumbnailUrl} key={post.id} />;
           })}
       </div>
     </div>
